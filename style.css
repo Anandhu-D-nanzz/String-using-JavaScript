@@ -1,0 +1,74 @@
+
+
+
+body {
+    background: #db8c8c;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .box {
+    background-color: rgb(127, 221, 221);
+    width: 80%;
+
+}
+
+.box .inpBox {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 0;
+}
+
+.box .inpBox #input {
+    width: 80%;
+}
+
+.box .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+
+}
+
+
+.box .button .btn {
+    /* background-color: blue; */
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem; 
+    margin: 20px 0;
+
+}
+
+.btn button {
+    width: 150px;
+    height: 30px;
+}
+
+.box .outBox {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 0;
+}
+
+.box .outBox #output {
+    width: 80%;
+}
